@@ -20,4 +20,7 @@
 * docker run -d -p 8888:8080 [REPOSITORY] 指定端口后台运行镜像
 * docker ps 查看已经运行的镜像
 #### 4、网络
+* ps 命令
+* netstat 命令
+
 #### 5、文件
