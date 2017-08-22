@@ -31,3 +31,16 @@
 #### 6、用户和权限
 #### 7、查看内存
 * free -mh
+#### 8、查看系统信息
+* more /etc/redhat-release 查看系统版本
+* uname -r 查看内核版本
+* hostname 查看主机名
+* cat /etc/sysconfig/network 修改主机名
+* sestatus 查看selinux情况
+* 查看cpu信息
+> 例如：more /proc/cpuinfo | grep "model name"
+> 例如：grep "model name" /proc/cpuinfo
+* 查看内存信息
+> 例如：grep MemTotal /proc/meminfo
+> 例如：free -m
+
